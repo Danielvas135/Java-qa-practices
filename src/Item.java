@@ -4,22 +4,26 @@ public class Item {
     String description;
     int price;
     int atk;
-    int def;
+    int arm;
     int ap;
     int hp;
 
     // Constructor
-    public Item(String name, String description) {
+    public Item(String name, String description, int price, int atk, int arm, int ap, int hp) {
         this.name = name;
         this.description = description;
-        this.price = 3000;
-        this.atk = 0;
-        this.def = 0;
-        this.ap = 0;
-        this.hp = 300;
+        this.price = price;
+        this.atk = atk;
+        this.arm = arm;
+        this.ap = ap;
+        this.hp = hp;
     }
-    public void buyItem(String name){
-
+    public void showStats(){
+    System.out.println("=== " + name + " ===");
+    System.out.println("Description: " + description);
+    System.out.println("Price: " + price + " gold");
+    System.out.println("HP: " + hp + "| ATK: " + atk + "| AP: "+ ap + " | ARM: " + arm);
+    System.out.println("---------------------");
 
     }
 }

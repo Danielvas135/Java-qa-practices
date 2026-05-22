@@ -4,20 +4,48 @@
         public static void main(String[] args) {
             System.out.println("=== M2-L6 Classes and Objects ===\n");
 
-            // Creating objects from the Champion blueprint
-            Champion neeko = new Champion("Neeko", "Mid/Support");
-            Champion yasuo = new Champion("Yasuo", "Mid");
+            Champion neeko = new Champion("Neeko", "Mid/Support", 610, 48,21,104,2.5,5.2);
+            Champion ahri = new Champion("Ahri", "Mid", 590, 53,21,104,3,4.2);
 
-            // Creating objects from the Champion blueprint
-            Item rocketbelt = new Item("Rocketbelt", "A belt with a rocket on it");
-            Item stormsurge = new Item("Stormsurge", "Sword of storms");
+            // Creating items with real stats
+            Item doransring = new Item("Doran's Ring", "Mage starter item", 400, 0, 0, 18,90);
+            Item rocketbelt = new Item("Rocketbelt", "A belt with a rocket on it", 2650, 0, 0, 70, 300);
+            Item stormsurge = new Item("Stormsurge", " shockingly good time", 2800, 0, 0, 90, 0);
+            Item zhonyas = new Item("Zhonya's Hourglass", "Stops time but just for u", 3250, 0, 50, 105, 0);
+            Item blt = new Item("Blackfire Torch", "A hot rod",2800, 0, 0, 80, 0 );
 
-            System.out.println("Created champion: " + neeko.name + " (" + neeko.role + ")");
+/*
+            neeko.showStats();
+            neeko.buyItem(doransring);
+            neeko.showStats();
 
-            neeko.levelUp();
-            //neeko.buyItem("erm");
+            // Farm gold
+            neeko.farmWave(10);   // Farm for 6 minutes
 
-            System.out.println("\nYasuo's level: " + yasuo.level);
+            System.out.println("\n=== SHOP ===\n");
+            rocketbelt.showStats();
+            stormsurge.showStats();
+            zhonyas.showStats();
+
+            neeko.buyItem(rocketbelt);
+            neeko.showStats();
+
+ */
+            ahri.showStats();
+            ahri.buyItem(doransring);
+            ahri.showStats();
+
+            // Farm gold
+            ahri.farmWave(10);   // Farm for 6 minutes
+
+            System.out.println("\n=== SHOP ===\n");
+            rocketbelt.showStats();
+            stormsurge.showStats();
+            zhonyas.showStats();
+            blt.showStats();
+
+            ahri.buyItem(blt);
+            ahri.showStats();
         }
     }
 
