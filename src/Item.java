@@ -20,6 +20,18 @@ public class Item {
         this.hp = hp;
         this.mp = mp;
     }
+    // Getters
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getPrice() {
+        return price;
+    }
     public void showStats(){
     System.out.println("=== " + name + " ===");
     System.out.println("Description: " + description);
