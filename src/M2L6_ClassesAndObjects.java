@@ -8,12 +8,7 @@
             Ahri ahri = new Ahri();
 
             // Creating items with real stats
-            Item doransring = new Item("Doran's Ring", "Mage starter item", 400, 0, 0, 18,90, 0);
-            Item rocketbelt = new Item("Rocketbelt", "A belt with a rocket on it", 2650, 0, 0, 70, 300, 0);
-            Item stormsurge = new Item("Stormsurge", " shockingly good time", 2800, 0, 0, 90, 0, 0);
-            Item zhonyas = new Item("Zhonya's Hourglass", "Stops time but just for u", 3250, 0, 50, 105, 0, 0);
-            Item bft = new Item("Blackfire Torch", "A hot rod",2800, 0, 0, 80, 0, 300);
-            Item Cosmic = new Item("Comic Drive", "A racer helmet from the 80's",3000, 0, 0, 70, 350, 0 );
+            ItemShop shop = new ItemShop();
 
             //setter for gold  shouldn't be able to get negative
             neeko.setGold(5000);
@@ -25,8 +20,9 @@
 
             neeko.showStats();
             ahri.showStats();
-            neeko.buyItem(doransring);
-            ahri.buyItem(doransring);
+            shop.showAllStarterItems();
+            neeko.buyItem(shop.getAllStarterItems()[0]);
+            ahri.buyItem(shop.getAllStarterItems()[0]);
             neeko.showStats();
             ahri.showStats();
 
@@ -35,22 +31,21 @@
             ahri.farmWave(10);
 
             // "open shop" look and items available to buy
-            System.out.println("\n=== SHOP ===\n");
-            rocketbelt.showStats();
-            stormsurge.showStats();
-            zhonyas.showStats();
-            bft.showStats();
-            Cosmic.showStats();
+           shop.showAllApItems();
 
-            neeko.buyItem(rocketbelt);
-            neeko.buyItem(stormsurge);
-            neeko.buyItem(zhonyas);
+            neeko.buyItem(shop.getAllItems()[1]);
+            neeko.buyItem(shop.getAllItems()[2]);
+            neeko.buyItem(shop.getAllItems()[3]);
 
-            ahri.buyItem(bft);
-            ahri.buyItem(Cosmic);
+            ahri.buyItem(shop.getAllItems()[4]);
+            ahri.buyItem(shop.getAllItems()[5]);
 
             neeko.showStats();
             ahri.showStats();
+
+            shop.showAllAdItems();
+            neeko.buyItem(shop.getAllItems()[6]);
+
 
         }
     }
