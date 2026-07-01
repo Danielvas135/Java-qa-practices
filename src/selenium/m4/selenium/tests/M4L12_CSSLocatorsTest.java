@@ -33,23 +33,41 @@ public class M4L12_CSSLocatorsTest extends BaseTest {
         driver.get("https://www.saucedemo.com/");
         new selenium.pages.LoginPage(driver).login("standard_user", "secret_sauce");
 
-        // CSS practice: Add first item to cart
+        // Add item
         driver.findElement(By.cssSelector("[data-test='add-to-cart-sauce-labs-backpack']")).click();
 
-        // Wait and click cart
+        // Go to cart
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[data-test='shopping-cart-link']")))
                 .click();
 
+        // Verify
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".cart_item")));
         Assert.assertTrue(driver.findElement(By.cssSelector(".cart_item")).isDisplayed());
         System.out.println("Item added to cart!");
-
-        driver.findElement(By.cssSelector("a[data-test='shopping-cart-link']")).click();
-        driver.findElement(By.cssSelector("button[data-test^='remove-']")).click();  // Remove button
-
-        // Verify cart is empty
-        Assert.assertTrue(driver.findElements(By.cssSelector("[data-test='cart-list'] .cart_item")).isEmpty());
     }
+    @Test
+    public void removeItemFromCart() {
+        driver.get("https://www.saucedemo.com/");
+        new selenium.pages.LoginPage(driver).login("standard_user", "secret_sauce");
+
+        // Add item first
+        driver.findElement(By.cssSelector("[data-test='add-to-cart-sauce-labs-backpack']")).click();
+
+        // Go to cart
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[data-test='shopping-cart-link']")))
+                .click();
+
+        // Remove item
+        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button[data-test^='remove-']")))
+                .click();
+
+        // Verify empty
+        Assert.assertTrue(driver.findElements(By.cssSelector(".cart_item")).isEmpty());
+        System.out.println("Cart item removed!");
+    }
+
 
 
 }
