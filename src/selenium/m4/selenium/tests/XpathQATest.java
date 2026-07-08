@@ -31,13 +31,13 @@ public class XpathQATest extends BaseTest {
 
         for (String card : cards) {
             driver.findElement(By.xpath("//a[@href='" + card + "']")).click();
-            System.out.println("✅ Navigated to: " + card);
+            System.out.println("Navigated to: " + card);
 
             // Wait and return home
             wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'demoqa.com')]")))
                     .click();
         }
 
-        System.out.println("✅ Completed all cards!");
+        System.out.println("Completed all cards!");
     }
 }

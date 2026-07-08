@@ -8,10 +8,23 @@
         </classes>
     </test>
 
-    <test name="Elements Tests">
+  <test name="Elements Tests">
     <classes>
         <class name="selenium.m4.selenium.tests.XpathQATest"/>
     </classes>
+ </test>
+
+ <test name="Filter Tests">
+    <classes>
+        <class name="selenium.m4.selenium.tests.resources.LumFilters"/>
+    </classes>
 </test>
+
+<test name="Data Driven Tests">
+        <classes>
+            <class name="selenium.m4.selenium.tests.resources.LumFilters"/>
+        </classes>
+</test>
+
 
 </suite>
