@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Danielvas135&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Danielvas135/Java-qa-practices&quot;,
+    &quot;accountId&quot;: &quot;900395bb-9356-4fc9-b5f8-7480308b7d17&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3FMUsebPrsgfoVsfIsJg5jH1TvH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.M1L1_Basics.executor": "Run",
+    "Application.M1L2_Strings.executor": "Run",
+    "Application.M2L6_ClassesAndObjects.executor": "Run",
+    "Application.M3L10_ArrayList.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml.executor": "Run",
+    "TestNG.LumFilters.completeCheckout.executor": "Run",
+    "TestNG.LumFilters.filterProductsByPrice.executor": "Run",
+    "TestNG.LumFilters.invalidLoginTest.executor": "Run",
+    "TestNG.LumFilters.logoutTest.executor": "Run",
+    "TestNG.LumFilters.sortProductsNameAZ.executor": "Run",
+    "TestNG.LumFilters.verifyCartBadge.executor": "Run",
+    "TestNG.M4L12_CSSLocatorsTest.completeCheckout.executor": "Run",
+    "TestNG.M4L12_CSSLocatorsTest.executor": "Run",
+    "TestNG.MikuDataDrivenTesting.checkoutWithDifferentUsers.executor": "Run",
+    "TestNG.MikuDataDrivenTesting.executor": "Run",
+    "TestNG.MikuDataDrivenTesting.loginWithDifferentUsers.executor": "Run",
+    "TestNG.MusicSiteTest.addSongToPlaylist.executor": "Run",
+    "TestNG.MusicSiteTest.changeTheme.executor": "Run",
+    "TestNG.MusicSiteTest.deletePlaylist (1).executor": "Run",
+    "TestNG.MusicSiteTest.deletePlaylist.executor": "Run",
+    "TestNG.MusicSiteTest.executor": "Run",
+    "TestNG.MusicSiteTest.newPlaylist.executor": "Run",
+    "TestNG.XpathQATest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml">
+    <configuration name="C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoelPlaylistTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoelPlaylistTest.changeTheme" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
+      <option name="METHOD_NAME" value="changeTheme" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoelPlaylistTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
+      <option name="METHOD_NAME" value="deletePlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoelPlaylistTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
+      <option name="METHOD_NAME" value="deletePlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KoelPlaylistTest.newPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
+      <option name="METHOD_NAME" value="newPlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MusicSiteTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.MusicSiteTest" />
+      <option name="METHOD_NAME" value="deletePlaylist" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" />
+        <item itemvalue="TestNG.KoelPlaylistTest" />
+        <item itemvalue="TestNG.KoelPlaylistTest.deletePlaylist" />
+        <item itemvalue="TestNG.KoelPlaylistTest.deletePlaylist" />
+        <item itemvalue="TestNG.KoelPlaylistTest.newPlaylist" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="" />
+      <created>1781884640863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781884640863</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Started to work on selenium. took a bit of trouble shooting to get hte correct libraries in. I got maven in and on workoing with the pom.xml and running test cases on saucedemo.com to learn how to search for ccs locators.">
+      <option name="closed" value="true" />
+      <created>1782853865206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782853865206</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated the test file. in my test file I ran 3 test login, login add item to cart, login in add item to cart and remove it.">
+      <option name="closed" value="true" />
+      <created>1782867386830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782867386830</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I practiced Xpath locators and navigating elements with them and updated testng.xml to run the 2 test files in one place">
+      <option name="closed" value="true" />
+      <created>1782871970304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782871970304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="I practiced more with the web elements by messing around with the sorting filters and I worked on learning data driven testing with multi user log in and checkout">
+      <option name="closed" value="true" />
+      <created>1783477703309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783477703309</updated>
+    </task>
+    <task id="LOCAL-00005" summary="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors">
+      <option name="closed" value="true" />
+      <created>1783811496326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783811496326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="M3L10 Created arrays list for the item shop  learned how to use add(), get(), remove, size()" />
+    <MESSAGE value="Started to work on selenium. took a bit of trouble shooting to get hte correct libraries in. I got maven in and on workoing with the pom.xml and running test cases on saucedemo.com to learn how to search for ccs locators." />
+    <MESSAGE value="updated the test file. in my test file I ran 3 test login, login add item to cart, login in add item to cart and remove it." />
+    <MESSAGE value="I practiced Xpath locators and navigating elements with them and updated testng.xml to run the 2 test files in one place" />
+    <MESSAGE value="I practiced more with the web elements by messing around with the sorting filters and I worked on learning data driven testing with multi user log in and checkout" />
+    <MESSAGE value="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
+  </component>
+</project>
