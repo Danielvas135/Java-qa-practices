@@ -16,13 +16,19 @@
 
  <test name="Filter Tests">
     <classes>
-        <class name="selenium.m4.selenium.tests.resources.LumFilters"/>
+        <class name="selenium.m4.selenium.tests.LumFilters"/>
     </classes>
 </test>
 
 <test name="Data Driven Tests">
         <classes>
-            <class name="selenium.m4.selenium.tests.resources.LumFilters"/>
+            <class name="selenium.m4.selenium.tests.LumFilters"/>
+        </classes>
+</test>
+
+<test name="qa Koel testing">
+        <classes>
+            <class name="selenium.m4.selenium.tests.KoelPlaylistTest"/>
         </classes>
 </test>
 
