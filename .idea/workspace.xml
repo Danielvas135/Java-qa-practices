@@ -4,62 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="Created local test for Firefox">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Ahri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Champion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/FirefoxTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/ItemShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/ItemShopList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/KoelPlaylistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/LumFilters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L1_Basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L2_Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L3_Conditionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L4_Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M2L6_ClassesAndObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M3L10_ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M3L9_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M4L12_CSSLocatorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/MikuDataDrivenTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Neeko.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/XpathQATest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-QA-Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ahri.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Champion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemShop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemShopList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M1L1_Basics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M1L2_Strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M1L3_Conditionals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M1L4_Loops.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M2L6_ClassesAndObjects.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M3L10_ArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/M3L9_Arrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Neeko.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/base/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/pages/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/FirefoxTesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/KoelPlaylistTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/LumFilters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/M4L12_CSSLocatorsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/MikuDataDrivenTesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/XpathQATest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" />
+    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="Converted my project from using Maven to using Gradle">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784524620917</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Converted my project from using Maven to using Gradle">
+      <option name="closed" value="true" />
+      <created>1784530890086</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784530890086</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -309,6 +263,7 @@
     <MESSAGE value="I practiced more with the web elements by messing around with the sorting filters and I worked on learning data driven testing with multi user log in and checkout" />
     <MESSAGE value="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
     <MESSAGE value="Created local test for Firefox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created local test for Firefox" />
+    <MESSAGE value="Converted my project from using Maven to using Gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted my project from using Maven to using Gradle" />
   </component>
 </project>
