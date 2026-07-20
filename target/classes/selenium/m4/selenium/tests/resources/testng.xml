@@ -32,5 +32,12 @@
         </classes>
 </test>
 
+<parameter name="browser" value="firefox"/>
+<test name="Firefox Test">
+        <classes>
+            <class name="selenium.m4.selenium.tests.FirefoxTesting"/>
+        </classes>
+</test>
+
 
 </suite>

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
+    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors">
+      <change afterPath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/FirefoxTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +62,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml.executor": "Run",
+    "TestNG.FirefoxTesting (1).executor": "Run",
+    "TestNG.FirefoxTesting.executor": "Run",
     "TestNG.LumFilters.completeCheckout.executor": "Run",
     "TestNG.LumFilters.filterProductsByPrice.executor": "Run",
     "TestNG.LumFilters.invalidLoginTest.executor": "Run",
@@ -82,11 +89,45 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.FirefoxTesting (1)">
     <configuration name="C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Java-QA-Practice" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirefoxTesting (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.FirefoxTesting" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirefoxTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Java-QA-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.FirefoxTesting" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,42 +145,6 @@
       <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
       <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KoelPlaylistTest.changeTheme" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
-      <option name="METHOD_NAME" value="changeTheme" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KoelPlaylistTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
-      <option name="METHOD_NAME" value="deletePlaylist" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -202,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirefoxTesting (1)" />
+        <item itemvalue="TestNG.FirefoxTesting" />
         <item itemvalue="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" />
         <item itemvalue="TestNG.KoelPlaylistTest" />
         <item itemvalue="TestNG.KoelPlaylistTest.deletePlaylist" />
-        <item itemvalue="TestNG.KoelPlaylistTest.deletePlaylist" />
-        <item itemvalue="TestNG.KoelPlaylistTest.newPlaylist" />
       </list>
     </recent_temporary>
   </component>
