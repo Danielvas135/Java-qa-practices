@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class Champion {
     //set protected variables for subclasses
     protected String name;

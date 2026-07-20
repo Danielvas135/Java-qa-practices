@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
        // Main class to test everything
     public class M2L6_ClassesAndObjects {
 

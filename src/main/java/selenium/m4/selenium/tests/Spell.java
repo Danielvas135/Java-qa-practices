@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class Spell {
 
     public String name;

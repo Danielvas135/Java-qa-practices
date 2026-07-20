@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class M1L2_Strings {
     public static void main(String[] args) {
         System.out.println("=== M1-L2 Java Strings ===\n");

@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class M3L10_ArrayList {
 
     public static void main(String[] args){

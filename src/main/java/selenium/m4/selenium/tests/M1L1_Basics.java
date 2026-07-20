@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class M1L1_Basics {
 
     public static void main(String[] args) {

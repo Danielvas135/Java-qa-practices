@@ -4,16 +4,87 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors">
-      <change afterPath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/FirefoxTesting.java" afterDir="false" />
+    <list default="true" id="f48742c5-6e46-4485-abb1-9378a90db6a7" name="Changes" comment="Created local test for Firefox">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Ahri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Champion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/FirefoxTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/ItemShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/ItemShopList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/KoelPlaylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/LumFilters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L1_Basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L2_Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L3_Conditionals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M1L4_Loops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M2L6_ClassesAndObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M3L10_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M3L9_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/M4L12_CSSLocatorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/MikuDataDrivenTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Neeko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/XpathQATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium/m4/selenium/tests/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-QA-Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ahri.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Champion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemShopList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M1L1_Basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M1L2_Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M1L3_Conditionals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M1L4_Loops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M2L6_ClassesAndObjects.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M3L10_ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M3L9_Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Neeko.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/FirefoxTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/KoelPlaylistTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/LumFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/M4L12_CSSLocatorsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/MikuDataDrivenTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/XpathQATest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,50 +120,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.M1L1_Basics.executor": "Run",
-    "Application.M1L2_Strings.executor": "Run",
-    "Application.M2L6_ClassesAndObjects.executor": "Run",
-    "Application.M3L10_ArrayList.executor": "Run",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml.executor": "Run",
-    "TestNG.FirefoxTesting (1).executor": "Run",
-    "TestNG.FirefoxTesting.executor": "Run",
-    "TestNG.LumFilters.completeCheckout.executor": "Run",
-    "TestNG.LumFilters.filterProductsByPrice.executor": "Run",
-    "TestNG.LumFilters.invalidLoginTest.executor": "Run",
-    "TestNG.LumFilters.logoutTest.executor": "Run",
-    "TestNG.LumFilters.sortProductsNameAZ.executor": "Run",
-    "TestNG.LumFilters.verifyCartBadge.executor": "Run",
-    "TestNG.M4L12_CSSLocatorsTest.completeCheckout.executor": "Run",
-    "TestNG.M4L12_CSSLocatorsTest.executor": "Run",
-    "TestNG.MikuDataDrivenTesting.checkoutWithDifferentUsers.executor": "Run",
-    "TestNG.MikuDataDrivenTesting.executor": "Run",
-    "TestNG.MikuDataDrivenTesting.loginWithDifferentUsers.executor": "Run",
-    "TestNG.MusicSiteTest.addSongToPlaylist.executor": "Run",
-    "TestNG.MusicSiteTest.changeTheme.executor": "Run",
-    "TestNG.MusicSiteTest.deletePlaylist (1).executor": "Run",
-    "TestNG.MusicSiteTest.deletePlaylist.executor": "Run",
-    "TestNG.MusicSiteTest.executor": "Run",
-    "TestNG.MusicSiteTest.newPlaylist.executor": "Run",
-    "TestNG.XpathQATest.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.M1L1_Basics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M1L2_Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M2L6_ClassesAndObjects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M3L10_ArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build Java-QA-Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java-QA-Practice [:M3L10_ArrayList.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Java-QA-Practice [:selenium.m4.selenium.tests.M2L6_ClassesAndObjects.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FirefoxTesting (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.FirefoxTesting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.completeCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.filterProductsByPrice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.invalidLoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.logoutTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.sortProductsNameAZ.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LumFilters.verifyCartBadge.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.M4L12_CSSLocatorsTest.completeCheckout.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.M4L12_CSSLocatorsTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MikuDataDrivenTesting.checkoutWithDifferentUsers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MikuDataDrivenTesting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MikuDataDrivenTesting.loginWithDifferentUsers.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.addSongToPlaylist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.changeTheme.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.deletePlaylist (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.deletePlaylist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MusicSiteTest.newPlaylist.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.XpathQATest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danie/IdeaProjects/Java-QA-Practice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.FirefoxTesting (1)">
-    <configuration name="C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/selenium/m4/selenium/tests/resources/testng.xml" />
+}</component>
+  <component name="RunManager" selected="Application.M2L6_ClassesAndObjects">
+    <configuration name="M2L6_ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.M2L6_ClassesAndObjects" />
+      <module name="java-qa-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M3L10_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M3L10_ArrayList" />
+      <module name="java-qa-practice.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-qa-practice.main" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -100,17 +198,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirefoxTesting (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.FirefoxTesting" />
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration name="C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java-qa-practice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,84 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KoelPlaylistTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KoelPlaylistTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
-      <option name="METHOD_NAME" value="deletePlaylist" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KoelPlaylistTest.newPlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.KoelPlaylistTest" />
-      <option name="METHOD_NAME" value="newPlaylist" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MusicSiteTest.deletePlaylist" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Java-QA-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.m4.selenium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.m4.selenium.tests" />
-      <option name="MAIN_CLASS_NAME" value="selenium.m4.selenium.tests.MusicSiteTest" />
-      <option name="METHOD_NAME" value="deletePlaylist" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirefoxTesting (1)" />
+        <item itemvalue="Application.M2L6_ClassesAndObjects" />
+        <item itemvalue="Application.M3L10_ArrayList" />
+        <item itemvalue="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml (1)" />
+        <item itemvalue="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/main/java/selenium/m4/selenium/tests/resources/testng.xml" />
         <item itemvalue="TestNG.FirefoxTesting" />
-        <item itemvalue="TestNG.C:/Users/danie/IdeaProjects/Java-QA-Practice/src/selenium/m4/selenium/tests/resources/testng.xml" />
-        <item itemvalue="TestNG.KoelPlaylistTest" />
-        <item itemvalue="TestNG.KoelPlaylistTest.deletePlaylist" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783811496326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created local test for Firefox">
+      <option name="closed" value="true" />
+      <created>1784524620917</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784524620917</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -280,6 +308,7 @@
     <MESSAGE value="I practiced Xpath locators and navigating elements with them and updated testng.xml to run the 2 test files in one place" />
     <MESSAGE value="I practiced more with the web elements by messing around with the sorting filters and I worked on learning data driven testing with multi user log in and checkout" />
     <MESSAGE value="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved LumFilters.java and MikuDataDrivenTesting.java from resources to tests package. Also practiced playlist management on qa.koel.com using xpath and ccsSelectors" />
+    <MESSAGE value="Created local test for Firefox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created local test for Firefox" />
   </component>
 </project>

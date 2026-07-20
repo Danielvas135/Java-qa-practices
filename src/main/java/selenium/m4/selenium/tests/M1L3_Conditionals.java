@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class M1L3_Conditionals {
     public static void main(String[] args) {
         System.out.println("=== M1-L3 Conditionals (If-Else) ===\n");

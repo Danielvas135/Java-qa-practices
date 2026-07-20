@@ -1,4 +1,9 @@
+package selenium.m4.selenium.tests;
+
+import selenium.m4.selenium.tests.Item;
+
 import java.util.ArrayList;
+
 
 public class ItemShopList {
 

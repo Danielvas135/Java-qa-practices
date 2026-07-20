@@ -1,3 +1,5 @@
+package selenium.m4.selenium.tests;
+
 public class Neeko extends Champion {
 
    public Spell[] spells;
